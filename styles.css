@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid yellow; */
+}
+
+.clear, #hero .clear {
+  clear: both;
+  float: none !important;
+  width: 100% !important;
+}
+
+header {
+  height: 110px;
+  padding: 0px 60px;
+  background-color: #FF1313;
+  color: white;
+}
+
+header > h1, nav {
+  display: inline-block;
+}
+
+header > h1 {
+  margin-top: 32px;
+  float: left;
+}
+
+header > nav {
+  margin-top: 46px;
+  float: right;
+}
+
+header > nav > a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header > nav > a:hover {
+  color: black;
+}
+
+header > nav > a:last-child {
+  margin: 0;
+}
+
+main > section {
+  padding: 0px 60px;
+}
+
+#hero {
+  background: black;
+}
+
+#moreFilms {
+  background: #FF1313;
+  padding: 60px 60px;
+}
+
+#hero > div {
+  width: 50%;
+  margin-top: 100px;
+  float: left;
+}
+
+#hero > img {
+  width: 35%;
+  height: 500px;
+  object-fit: contain;
+  float: right;
+}
+
+#hero > div > h1, #hero > div > p {
+  margin-bottom: 40px;
+}
+
+#hero > div > h1 {
+  color: white;
+  font-size: 56px;
+}
+
+#hero > div > p {
+  color: #FF1313;
+  font-size: 18px;
+}
+
+#hero > div > a > button {
+  padding: 20px 40px;
+  border-radius: 40px;
+  border: none;
+  background: #FF1313;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#hero > div > a > button:hover {
+  cursor: pointer;
+  background: #419D78;
+}
+
+#moreFilms > h2, #moreFilms > p {
+  color: white;
+  text-align: center;
+}
+
+#moreFilms > h2 {
+  font-size: 36px;
+}
+
+#moreFilms > p {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 200%;
+}
+
+#moreFilms > div {
+  width: 90%;
+  margin: 0px auto;
+}
+
+#moreFilms > div > article {
+  background: white;
+  border-radius: 24px;
+  width: calc(25% - 40px);
+  float: left;
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+#moreFilms > div > article > img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+#moreFilms > div > article > h3 {
+  font-size: 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#moreFilms > div > article > p {
+  color: #FF1313;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#moreFilms > div > article > a {
+  text-decoration: none;
+}
+
+#moreFilms > div > article > a > button {
+  display: block;
+  padding: 10px 30px;
+  margin: 0px auto;
+  border-radius: 40px;
+  border: none;
+  background: #FF1313;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#moreFilms > div > article > a > button:hover {
+  cursor: pointer;
+  background: #419D78;
+}
+
+footer {
+  padding: 40px 60px;
+  background: black;
+}
+
+footer > p {
+  color: #FF1313;
+  font-size: 14px;
+  float: left;
+}
+
+footer > div {
+  float: right;
+}
+
+footer > div > a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: white;
+  margin: 0px 5px;
+}
+
+footer > div > a > i {
+  color: #FF1313;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer > div > a > i:hover {
+  color: black;
+}
